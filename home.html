@@ -14,17 +14,17 @@
 <br><br><br>
  <div class="container">
   <div class="centerswitch">
-    <button class="lightswitch" type="button" onclick="lightson()"> Lights on </button>
-    <button class="lightswitch" type="button" onclick="lightsoff()"> Lights off </button>
+    <button class="lightswitch" type="button" onclick="lightsOn()"> Lights on </button>
+    <button class="lightswitch" type="button" onclick="lightsOff()"> Lights off </button>
   </div>
 </div>
 <br><br><br><br><br><br>
 
 <script>
-  function lightson(){
+  function lightsOn(){
     document.body.style.backgroundImage = "url('light.jpg')";
   }
-  function lightsoff(){
+  function lightsOff(){
     document.body.style.backgroundImage = "url('dark.jpg')";
   }
 </script>
