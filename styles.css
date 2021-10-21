@@ -1,0 +1,170 @@
+h1 {
+    font-weight: bold;
+  }
+  body {
+    color: black;
+    background-size:cover;
+    height:100vh;
+    width:100vw;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  h1{
+    font-size:55px;
+    color: #f56518;
+  }
+  .blackh{
+    font-size:55px;
+    color:black;
+  }
+  p {
+    color: white;
+  }
+  .blackstory{
+    font-family:monospace;
+    font-size:25px;
+    text-align:center;
+    color:black;
+  }
+  .whitestory{
+    font-family:monospace;
+    font-size:25px;
+    text-align:center;
+    color:white;
+  }
+  .redstory{
+    font-family:monospace;
+    font-size:25px;
+    text-align:center;
+    color:#b72121;
+    background-color:black;
+  }
+  .party, .tt, .home, .eatit, .donteatit, .hospital, .bathroom, .next, .movie, .pizza, .nap, .jump, .investigate{
+    text-decoration:underline;
+    font-size:40px;
+  }
+  .party:hover, .eatit:hover, .hospital:hover, .next:hover, .jump:hover{
+    color:red;
+  }
+  .pizza:hover, .donteatit:hover{
+    color:#f56518;
+  }
+  .home:hover, .movie:hover, .investigate:hover{
+    color:blue;
+  }
+  .bathroom:hover{
+    color:greenyellow
+  }
+  .nap:hover{
+    color:green;
+  }
+  
+  a:visited{
+    color:black;
+  }
+  a{
+    color:white
+  }
+
+  .partyb{
+    background-image: url("party.jpeg");
+    background-size: cover;
+  }
+  .halloweenb{
+    background-image: url("./pumpkin.jpg");
+    background-size: cover; 
+  }
+  .donteatitb{
+    background-image: url("monitor.jpeg");
+    background-size: cover;
+  }
+  .hospitalb{
+    background-image: url("hospital.jpg");
+    background-size: cover;
+  }
+  h2{
+    color: red;
+    font-size: 50px
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover{
+    color: #b21919;
+  }
+  .dropdown {
+    position: relative;
+    text-align:center;
+  }
+  
+  .dropdown-content {
+    display:none;
+    position:relative;
+    background-color:white;
+    padding:16px; 
+  }
+  .dropdown-color{
+    color:black;
+  }
+  .bathroomb{
+    background-image: url("toilet.jpeg");
+    background-size: cover;
+  }
+  .deathb{
+    background-color:black;
+  }
+  
+  .d{
+    font-size:100px;
+    color:red;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    text-align:center;
+  }
+  .homeb{
+    background-color: black;
+  }
+  .napb{
+    background-image: url("bed.jpg");
+    background-size:cover;
+  }
+  .jumpdeathb{
+    background-color:black;
+  }
+  .axeb{
+    background-image: url("axe.jpeg");
+    background-size:cover;
+  }
+  .pizzab{
+    background-image: url("pizza.jpg");
+    background-size:cover;
+  }
+  .outsideb{
+    background-image:url("ufo.jpg");
+    background-size:cover;
+  }
+  .movieb{
+    background-image:url("dino.jpg");
+    background-size:cover;
+  }
+
+  .choices{
+    display:flex;
+    justify-content:center;
+    justify-content:space-evenly;
+    color:white;
+  }
+  .container {
+    height: 200px;
+    position: relative;
+  }
+
+  .centerswitch {
+    display:flex;
+    justify-content:center;
+    justify-content:space-evenly;
+  }
+  
